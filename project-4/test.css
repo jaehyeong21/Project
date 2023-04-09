@@ -1,0 +1,52 @@
+body.background 
+{
+    height : 100vh;
+    width : 100vw;
+    background-image : url(gradation.png);
+    background-repeat : no-repeat;
+    background-size : cover
+}
+
+div.box
+{
+    background : white;
+    border-radius: 50px;
+    margin:300px;
+    margin-top:80px;
+    margin-right:60px;
+    height : 700px;
+    width : 800px
+}
+
+span.image
+{
+    position : relative;
+    display : block;
+    background-image: url(picture.jpg);
+    background-size : cover;
+    width : 300px;
+    height : 300px;
+    border-radius: 80px;
+    left : 20px;
+    top : 20px
+}
+
+span.github
+{
+    position : absolute;
+    display : block;
+    background-image: url(github.png);
+    background-size : cover;
+    width : 60px;
+    height : 60px;
+    left : 1000px;
+    top : 700px
+}
+
+span.textbox
+{
+    position : absolute;
+    display : block;
+    left : 660px;
+    top : 240px
+}
