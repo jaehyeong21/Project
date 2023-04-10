@@ -47,6 +47,21 @@ span.textbox
 {
     position : absolute;
     display : block;
+    left : 650px;
+    top : 240px;
+    width : 430px;
+    height : 200px;
+    background-color : #DCDCDC;
+    background-size : cover;
+    border-radius: 30px;
+}
+
+span.textbox2
+{
+    position : absolute;
+    display : block;
+    width : 400px;
+    height : 150px;
+    top : 520px;
     left : 660px;
-    top : 240px
 }
