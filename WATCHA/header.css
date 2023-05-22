@@ -1,0 +1,86 @@
+header{
+  position : relative;
+  height : 9vh;
+  width : 100vh;
+  z-index : 1;
+}
+
+header>.main_header{
+  display : flex;
+  flex-direction : row;
+  top : 0px;
+  height : 60px;
+  width : 100vw;
+  position : fixed;
+  background-color : white;
+  border-bottom : 2px solid #F5F5F7;
+  justify-content : space-around;
+}
+
+.main_header>.left>h3>a{
+  color :#FF0458;
+}
+.main_header>.left>h3{
+  font-size : var(--font-large);
+  font-weight : bold;
+  margin-right : 50px;
+}
+
+.main_header>.left{
+  display : flex;
+  flex-direction : row;
+  align-items : center;
+  width : 500px;
+}
+.left_list{
+  width : 200px;
+  display : flex;
+  flex-direction : row;
+  justify-content : space-around;
+}
+/* .left>div{
+  display : flex;
+  justify-content : space-around;
+} */
+.right{
+  width : 600px;
+  display : flex;
+  align-items : center;
+  justify-content : flex-end;
+}
+
+label{
+  display : flex;
+  flex-direction : row;
+  background-color : #F5F5F7;
+  height : 40px;
+  width : 300px;
+  align-items : center;
+  justify-content : space-around;
+}
+
+label>input{
+  background-color : #F5F5F7;
+  border : none;
+  height : 20px;
+  width : 250px;
+}
+label>i{
+  color : #C8C9CF;
+}
+
+.button1{
+  background-color : white;
+  color : grey;
+  border : 0px;
+  margin : 0 10px;
+}
+
+.button2{
+  background-color : white;
+  border : 1px solid;
+  height : 30px;
+  font-weight : bold;
+  border-radius : 3px;
+  margin-right : 20px;
+}

@@ -54,7 +54,7 @@ footer{
   width : 200px;
   border-radius : 10px;
   color : white;
-  border-color : white;
+  border : none;
 }
 
 .button2{
@@ -63,7 +63,7 @@ footer{
   width : 200px;
   border-radius : 10px;
   color : white;
-  border-color : white;
+  border : none;
 }
 
 .margin{
