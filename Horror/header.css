@@ -1,0 +1,259 @@
+body{
+  height : 100vh;
+}
+/* 왼쪽 페이지 */
+container{
+  display : flex;
+  flex-direction : row;
+  height : 100vh;
+  width : 100%;
+}
+
+.left{
+  display : flex;
+  flex-direction : column;
+  height : 100vh;
+  width : 60%;
+  align-items : center;
+}
+
+.title_box{
+  display : flex;
+  width : 450px;
+  margin : 50px 0;
+}
+
+.content{
+  display : flex;
+  flex-direction : column;
+  justify-content : space-around;
+  width : 450px;
+  height : 100vh;
+}
+
+.left_title>div{
+  color : var(--color-red);
+  font-size : 70px;
+  font-weight : bold;
+}
+
+.left_title_sub>div{
+  color : var(--color-red);
+  font-size : var(--font-large);
+  margin : 0 0 10px 0;
+}
+
+.left_content>div{
+  color : var(--color-red);
+  font-size : var(--font-medium);
+}
+
+.left_link>span{
+  display : inline-block;
+  height : 30px;
+  text-decoration : underline;
+  margin : 0 10px 10px 0;
+  color : grey;
+}
+
+.left_sub{
+  font-size : var(--font-micro);
+  color : grey;
+}
+
+/* 오른쪽 페이지 */
+
+.right{
+  overflow: auto;
+  align-items : center;
+  height : 100vh;
+  width : 100%;
+  background-color : var(--color-red);
+}
+
+.main_header{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  position : sticky;
+  top : 0px;
+  height : 12vh;
+  width : 100%;
+  background-color : var(--color-red);
+  color : white;
+  font-weight : bold;
+  z-index : 1;
+}
+.main_header>a{
+  color : var(--color-horror);
+  text-decoration : underline;
+}
+
+.main_content{
+  padding : 70px;
+  background: linear-gradient(#E7473C 60%, #D84238);
+}
+
+.main_content_header{
+  display : flex;
+  justify-content : space-between;
+  margin : 0 0 20px 0;
+  color : white;
+}
+.main_content_header>.main_title{
+  font-size : 50px;
+  font-weight : bold;
+}
+
+/* .main_content_header>.main_title>div{
+  color : #D7271B;
+} */
+
+.main_content_header>.main_title_sub{
+  display : flex;
+  flex-direction : column;
+  justify-content : flex-end;
+  font-size : var(--font-small);
+}
+.main_content_header>.main_title_sub>span{
+  display : flex;
+  justify-content : flex-end;
+}
+
+.main_content_rating{
+  display : flex;
+  flex-direction : row;
+  justify-content : space-between;
+  margin : 30px 0 0 0;
+}
+.main_content_rating>.number_box{
+  display : flex;
+  position : relative;
+  background-color : #C72519;
+  top : -370px;
+  left : -5px;
+  width : 53px;
+  height : 40px;
+  justify-content : center;
+  align-items : center;
+  color : white;
+  font-weight : bold;
+  font-size : var(--font-medium);
+  z-index : 0;
+}
+.main_content_image>img{
+  width : 100%;
+  height : 350px;
+}
+
+.main_content_Comments{
+  display : flex;
+  flex-direction : row;
+  justify-content : space-between;
+  align-items : center;
+}
+
+.main_content>.main_content_Comments>.vote_box{
+  position : relative;
+  display : flex;
+  flex-direction : column;
+  justify-content : space-around;
+  align-items : center;
+  width : 48px;
+  height : 117px;
+  color : white;
+  background-color : #DA281B;
+  left : 422px;
+  top : -422px;
+}
+
+.main_content_Comments>div ,.main_content_rating>div{
+  color : var(--color-horror);
+  font-weight: bold;
+}
+
+.collection{
+  display : flex;
+  flex-direction : column;
+  justify-content : space-around;
+  background-color : #F0F0F0;
+  height : 60%;
+}
+
+.collection_title{
+  display : flex;
+  flex-direction : column;
+  width : 40%;
+  margin : 0 0 0 20px;
+}
+
+.collection_title_main{
+  color : var(--color-red);
+  font-size : 50px;
+  font-weight : bold;
+  margin : 0 0 15px 0;
+}
+
+.collection_title_sub{
+  color : var(--color-red);
+  font-size : var(--font-small);
+}
+
+.collection_of_link{
+  margin : 0 0 0 20px;
+  display : flex;
+  flex-direction : row;
+  overflow-x:auto;
+  overflow-y:hidden;
+}
+
+.collection_of_link_title{
+  color : var(--color-red);
+  font-weight : bold;
+  margin : 0 0 10px 0 0;
+}
+
+.collection_of_link_title>i{
+  margin : 0 10px 0 0;
+}
+
+.web{
+  display : flex;
+  flex-direction : column;
+  margin : 0 20px 0 0;
+}
+
+form>button{
+  background-color : #F0F0F0;
+  color : var(--color-red);
+  margin-top : 10px;
+  border : 2px solid var(--color-red);
+  border-radius : 4px;
+}
+
+/* footer */
+.footer{
+  display : flex;
+  flex-direction : row;
+  justify-content : center;
+  align-items : center;
+  height : 20%;
+  background-color : #F0F0F0;
+}
+
+.Twitter{
+  color : white;
+  background-color : dodgerblue;
+  height : 30px;
+  border : none;
+  border-radius : 10px;
+}
+
+.Youtube{
+  background-color : red;
+  color : white;
+  height : 30px;
+  border : none;
+  border-radius : 3px;
+  margin-right : 20px;
+}

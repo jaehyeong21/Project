@@ -60,7 +60,7 @@ footer{
   -webkit-appearance: none; 
   -moz-appearance: none;
   appearance: none;
-  color : white;
+  color : black;
   }
 
 /* .footer_list{
@@ -68,5 +68,3 @@ footer{
   flex-direction : row;
   justify-content : space-around;
 } */
-
-
