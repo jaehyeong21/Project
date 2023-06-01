@@ -161,3 +161,26 @@ menu>div>div>img{
   font-size : var(--font-small);
   color : #757783;
 }
+
+.sub{
+  display : flex;
+  flex-direction : row;
+  justify-content : space-around;
+}
+
+.sub_box1, .sub_box2{
+  display : flex;
+  flex-direction : column;
+  align-items : flex-start;
+}
+
+.sub>.sub_box1>.sub_title, .sub>.sub_box2>.sub_title{
+  margin : 0 0 10px 0;
+  font-size : 17px;
+  font-weight : bold;
+}
+
+.sub_box1>div, .sub_box2>div{
+  margin : 0 0 5px 0;
+  font-size : 12px;
+}

@@ -1,0 +1,55 @@
+body{
+  overflow-x : hidden;
+}
+
+container{
+  height : 100vh;
+}
+
+container>header{
+  height : 40vh;
+  background-image : url("image/background.jpg");
+  background-size : cover;
+}
+
+.background_image{
+  object-fit: cover;
+}
+
+container>header>.header_box{
+  display : flex;
+  flex-direction : row;
+  position : fixed;
+  z-index : 2;
+  justify-content : space-between;
+  align-items : center;
+  width : 100vw;
+  height : 70px;
+}
+
+.left_header{
+  display : flex;
+  margin : 0 0 0 40px;
+  width : 20vw;
+  justify-content : space-between;
+}
+
+.left_header{
+  color : white;
+}
+
+.left_header_title{
+  font-size : 20px;
+  font-weight : bold;
+
+}
+
+.right_header{
+  display : flex;
+  margin : 0 40px 0 0;
+}
+
+.right_header>input{
+  width : 20vw;
+  height : 30px;
+}
