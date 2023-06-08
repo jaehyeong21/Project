@@ -5,7 +5,6 @@ function fillstars(count) {
     const star = stars[index];
     if (index < count) {
       star.classList.add('filled');
-      star.classList.remove('far');
     }
   }
 }
@@ -15,9 +14,10 @@ function removestars() {
   for (let index = 0; index < stars.length; index++) {
     const star = stars[index];
     star.classList.remove('filled');
-    star.classList.add('far');
   }
 }
+
+
 /* 글자 갯수 조정 */
 const content = document.querySelector('#content');
   const contentText = content.innerText;
@@ -26,10 +26,10 @@ const content = document.querySelector('#content');
     content.innerText = contentText.slice(0, 150) + '...';
   }
 
-
   /* 스크롤 내리면 배경 색 바뀜 */
   const header = document.querySelector('#header_box');
   const title = document.querySelector('.left_header_title');
+
   const sub = document.querySelector('.left_header_sub');
   const headerHeight = header.getBoundingClientRect().height;
 
